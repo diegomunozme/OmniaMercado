@@ -1,4 +1,10 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  text-align: "center";
+  background-color: EAE4CD;
+}
+
+.buttons {
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
 }
