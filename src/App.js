@@ -1,23 +1,12 @@
-import classes from "./styles.css";
-import styled from "styled-components";
-
-const Button = styled.button`
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  padding: 10px 60px;
-  border-radius: 5px;
-  margin: 10px 0px;
-  cursor: pointer;
-`;
+import React from "react";
+import Header from "./components/Header";
+import Landing from "./components/Landing";
 
 const App = () => {
   return (
-    <div className={classes.App}>
-      <h1>Welcome to OmniaMercado</h1>
-      <h2>We'll hedge it</h2>
-      <Button>LesGetIt</Button>
-      <Button>LesGetIt</Button>
+    <div>
+      <Header />
+      <Landing />
     </div>
   );
 };

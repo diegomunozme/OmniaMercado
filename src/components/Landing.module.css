@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  justify-content: center;
+  background-color: EAE4CD;
+}
+
+.buttons {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.buttons:hover,
+.buttons:active {
+  border-color: white;
+}
+.buttons:focus {
+  outline: none;
+}
