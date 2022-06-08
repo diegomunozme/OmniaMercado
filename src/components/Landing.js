@@ -8,10 +8,6 @@ const App = () => {
     >
       <h1>OmniaMercado</h1>
       <h2>Hedge Yourself</h2>
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-        <button className={classes.buttons}>Create a Hedge</button>
-        <button className={classes.buttons}>Find a Hedge</button>
-      </div>
     </div>
   );
 };
