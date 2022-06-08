@@ -5,11 +5,14 @@ import { sliderItems } from "../Data/Data";
 
 const Container = styled.div`
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   position: relative;
   overflow: hidden;
   margin-bottom: 10vh;
+  background: transparent;
+  border-top: solid;
+  border-bottom: solid;
 `;
 
 const Arrow = styled.div`
@@ -53,6 +56,7 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
   height: 80%;
+  flex: 1;
 `;
 
 const InfoContainer = styled.div`
