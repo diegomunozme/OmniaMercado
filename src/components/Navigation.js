@@ -1,6 +1,6 @@
 import classes from "./Landing.module.css";
 import React, { useState } from "react";
-import CreateContract from "./Hedging/CreateContract";
+import CreateContract from "./Hedging/Steps/CreateContract";
 
 const Navigation = (props) => {
   const [staking, setStaking] = useState("");
@@ -18,8 +18,8 @@ const Navigation = (props) => {
     >
       {staking && (
         <CreateContract
-          title="Hashback Liquidity Pool"
-          message="Help us grow our liquidity pool and earn HBT during the process!"
+          title="Category Selection"
+          message="What do you want to hedge?"
           onConfirm={stakingModuleHandler}
         />
       )}

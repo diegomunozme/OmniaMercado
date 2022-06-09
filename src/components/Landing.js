@@ -7,7 +7,7 @@ const App = () => {
       style={{ textAlignVertical: "center", textAlign: "center" }}
     >
       <h1>OmniaMercado</h1>
-      <h2>Hedge Yourself</h2>
+      <h2>Hedge Life</h2>
     </div>
   );
 };
